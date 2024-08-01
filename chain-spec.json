@@ -1,18 +1,13 @@
 {
-  "name": "Ideal Network Testnet",
-  "id": "ideal_testnet",
-  "chainType": "Development",
+  "name": "Local Testnet",
+  "id": "local_testnet",
+  "chainType": "Local",
   "bootNodes": [
-    "/dns/etf0.idealabs.network/tcp/443/wss/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp",
-    "/dns/etf1.idealabs.network/tcp/443/wss/p2p/12D3KooWF9PqFCdboSo7FTmbuwQqj2A49xvxutKQZCyWo6fXYqJw"
+    "/ip4/127.0.0.1/tcp/30333/p2p/12D3KooWBwWsKt3GfRmuAj2YkbxiNPwweFAFm3TaAQxhXFsJXMr9"
   ],
   "telemetryEndpoints": null,
-  "protocolId": "IDN",
-  "properties": {
-    "ss58Format": 125,
-    "tokenDecimals": 12,
-    "tokenSymbol": "IDN"
-  },
+  "protocolId": null,
+  "properties": null,
   "codeSubstitutes": {},
   "genesis": {
     "raw": {
