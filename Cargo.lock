@@ -4993,7 +4993,7 @@ dependencies = [
 
 [[package]]
 name = "node-template-runtime"
-version = "0.0.0"
+version = "0.0.1"
 dependencies = [
  "frame-benchmarking",
  "frame-executive",
